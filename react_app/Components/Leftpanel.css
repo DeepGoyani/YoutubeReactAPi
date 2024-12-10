@@ -1,0 +1,129 @@
+.leftmain {
+    background-color: #212121;
+    height: 120vh;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;  
+  }
+  .sub{
+    gap: 50px;
+  }
+  .img img {
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .imglogo {
+    margin-left: -50%;
+  }
+  
+  .hess {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    margin-top: 10%;
+  }
+  
+  .home {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    background-color: #383838;
+    border: 1px solid #383838;
+  }
+  
+  .explore,
+  .explores {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .home:hover,
+  .explore:hover,
+  .explores:hover {
+    background-color: #383838;
+    transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  .logoh {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .explores {
+    margin-top: 7%;
+  }
+  
+  .home-txt {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .line {
+    width: 90%;
+    height: 1px;
+    background-color: #343434;
+    margin: 20px 0;
+  }
+  
+  .text {
+    color: #949494;
+    text-align: center;
+    margin-left: 47%;
+  }
+  
+  .sub {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .subpic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .subtxt {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    width: 170px;
+    text-align: center;
+    margin-left: 7%;
+    
+  }
+  .activestatus{
+    color: #3DA6FF ;
+    width: 2%;
+    margin-left: 2%;
+  }

@@ -1,0 +1,49 @@
+/* Style for the main container */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main-container {
+    display: flex; /* Horizontal layout for Leftpanel and main content */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #121212; /* Dark background */
+    color: white; /* Text color */
+  }
+  
+  /* Style for the left panel */
+  .leftpanel {
+    width: 250px; /* Fixed width */
+    background-color: #1e1e1e; /* Slightly darker than main background */
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Scroll if content exceeds height */
+  }
+  
+  /* Content container (Navbar + Videosection) */
+  .content-container {
+    display: flex;
+    flex-direction: column; /* Stack Navbar on top of Videosection */
+    flex-grow: 1; /* Take remaining space */
+  }
+  
+  /* Navbar */
+  .navbar {
+    height: 60px; /* Fixed height */
+    background-color: #333; /* Darker navbar */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    padding: 0 15px;
+    box-sizing: border-box;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  /* Videosection */
+  .videosection {
+    flex-grow: 1; /* Fill remaining space below Navbar */
+    background-color: #181818; /* Slightly lighter than the left panel */
+    padding: 10px;
+    overflow-y: auto; /* Enable scrolling for overflow */
+  }
+  body{
+    overflow: hidden;
+  }
